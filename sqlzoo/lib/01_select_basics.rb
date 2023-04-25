@@ -85,6 +85,5 @@ def just_the_right_size
   SELECT name, (area / 1000)
   FROM countries
   WHERE area BETWEEN 200000 AND 250000
-
   SQL
 end
